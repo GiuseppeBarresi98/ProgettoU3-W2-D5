@@ -1,1 +1,36 @@
-<p>registration works!</p>
+<div class="container text-white text-center">
+  <h1 class="text-white">Registrati</h1>
+  <form (ngSubmit)="onSubmit()">
+    <label>
+      <input
+        type="text"
+        [(ngModel)]="newUser.name"
+        name="name"
+        required
+        placeholder="Inserisci Nome Utente"
+      />
+    </label>
+    <br />
+    <label>
+      <input
+        type="email"
+        [(ngModel)]="newUser.email"
+        name="email"
+        required
+        placeholder="Inserisci Email"
+      />
+    </label>
+    <br />
+    <label>
+      <input
+        type="password"
+        [(ngModel)]="newUser.password"
+        name="password"
+        required
+        placeholder="Inserisci password"
+      />
+    </label>
+    <br />
+    <button btn btn-danger type="submit">Registrati</button>
+  </form>
+</div>

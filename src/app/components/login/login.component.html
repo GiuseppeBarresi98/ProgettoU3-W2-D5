@@ -1,1 +1,27 @@
-<p>login works!</p>
+<div class="container text-white text-center">
+  <h1 class="text-white">login</h1>
+  <form (ngSubmit)="onSubmit()">
+    <label>
+      <input
+        type="text"
+        [(ngModel)]="email"
+        name="email"
+        required
+        placeholder="Inserisci Nome Utente"
+      />
+    </label>
+    <br />
+
+    <label>
+      <input
+        type="password"
+        [(ngModel)]="password"
+        name="password"
+        required
+        placeholder="Inserisci password"
+      />
+    </label>
+    <br />
+    <button btn btn-danger type="submit">LogIn</button>
+  </form>
+</div>

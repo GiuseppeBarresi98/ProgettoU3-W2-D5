@@ -5,6 +5,8 @@
 export const environment = {
   production: false,
   apiUrl: 'http://localhost:4201/movies-popular',
+  apiLogin: 'http://localhost:4201/login',
+  apiReg: 'http://localhost:4201/signup',
 };
 
 /*

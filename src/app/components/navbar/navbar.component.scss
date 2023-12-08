@@ -5,6 +5,7 @@ a {
 img {
   width: 70px;
   margin-inline: 20px;
+  object-fit: contain;
 }
 
 .navbar {
@@ -13,4 +14,7 @@ img {
 a:hover {
   color: white;
   font-size: 20px;
+}
+.nav-link {
+  color: white;
 }
