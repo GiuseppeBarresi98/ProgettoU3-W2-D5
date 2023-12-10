@@ -19,5 +19,6 @@ export class NavbarComponent implements OnInit {
 
   getlogOut() {
     this.srv.logout();
+    alert('logOut effettuato');
   }
 }

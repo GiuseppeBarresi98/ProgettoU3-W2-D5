@@ -1,1 +1,10 @@
-<p>favorites works!</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-3 mt-4" *ngFor="let film of favorites">
+      <div class="card bg bg-dark">
+        <img src="https://image.tmdb.org/t/p/w500/{{ film.movieImg }}" alt="" />
+      </div>
+      <button (click)="removepref(film)">Rimuovi</button>
+    </div>
+  </div>
+</div>

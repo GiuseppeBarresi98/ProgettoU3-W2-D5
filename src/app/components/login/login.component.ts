@@ -28,8 +28,8 @@ export class LoginComponent implements OnInit {
         console.log('Login avvenuto con successo', data);
         alert('login effettuato');
         this.authService.login();
-        //this.authService.logV = true;
-        //this.isLogged = true;
+        localStorage.setItem('user', JSON.stringify(data));
+
         this.router.navigate(['/home']);
       },
       (error) => {

@@ -41,6 +41,36 @@
       "password": "$2a$10$tYslPPHy7ivV9QoRS5aWJO9GzCvjHhCKeXncCK.Wg0bGwnX5rjoo6",
       "name": "riccardo",
       "id": 7
+    },
+    {
+      "email": "federico@gmail.com",
+      "password": "$2a$10$21cFpXNZhZUmFgwNd9WAx.Yd9t5SjFgnJHFafjegMhB1wS5f08g16",
+      "name": "Federico",
+      "id": 8
+    },
+    {
+      "email": "peppe.barresi1@gmail.com",
+      "password": "$2a$10$0VfSIju8mCtwnXPw4pDbCO8ZUeoCN4A3fCiDJArAOzkmjkCl6dYNG",
+      "name": "Giulia1",
+      "id": 9
+    },
+    {
+      "email": "carmine@gmail.com",
+      "password": "$2a$10$IhkvpU5KmP827InimmS3deGLtSR3zohUiQ3VCbGwRL1AW1iBxZyNK",
+      "name": "carmine",
+      "id": 10
+    },
+    {
+      "email": "marco@gmail.com",
+      "password": "$2a$10$Bdx6zluegtmpUPzQxaTQUeiQ8NP1eMgnX5ktyZra13DNxcxQdTwSC",
+      "name": "marco",
+      "id": 11
+    },
+    {
+      "email": "pietro@gmail.com",
+      "password": "$2a$10$f6jtqWn73xq0HK7VIlOBSOpkMleCrb/c3Wb4khZj2c5f64MCfLco.",
+      "name": "Pietro",
+      "id": 12
     }
   ],
   "favorites": [
@@ -50,9 +80,64 @@
       "id": 6
     },
     {
-      "userId": 2,
+      "userId": 9,
+      "movieId": 567189,
+      "movieImg": "/zisnDuZBQWzio4ylon8AElnat7V.jpg",
+      "id": 7
+    },
+    {
+      "userId": 7,
       "movieId": 632357,
-      "id": 8
+      "movieImg": "/dxBTcvdH9d6apXZGnThPIVEJ376.jpg",
+      "id": 9
+    },
+    {
+      "userId": 7,
+      "movieId": 399566,
+      "movieImg": "/6Xq0gAxrm8KMAKWP4KYYhPWoQXM.jpg",
+      "id": 10
+    },
+    {
+      "userId": 7,
+      "movieId": 573680,
+      "movieImg": "/xD9mc8JCVXA8T8u4Od7qOUBuGH4.jpg",
+      "id": 12
+    },
+    {
+      "userId": 7,
+      "movieId": 567189,
+      "movieImg": "/zisnDuZBQWzio4ylon8AElnat7V.jpg",
+      "id": 13
+    },
+    {
+      "userId": 7,
+      "movieId": 578701,
+      "movieImg": "/qDGaNdeIwgHHXKYypo19oupxnrK.jpg",
+      "id": 14
+    },
+    {
+      "userId": 7,
+      "movieId": 573680,
+      "movieImg": "/xD9mc8JCVXA8T8u4Od7qOUBuGH4.jpg",
+      "id": 15
+    },
+    {
+      "userId": 7,
+      "movieId": 635302,
+      "movieImg": "/m9cn5mhW519QKr1YGpGxNWi98VJ.jpg",
+      "id": 16
+    },
+    {
+      "userId": 12,
+      "movieId": 791373,
+      "movieImg": "/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
+      "id": 17
+    },
+    {
+      "userId": 12,
+      "movieId": 527774,
+      "movieImg": "/zDgV6rPCqAUDOtfKvvxExOiR2om.jpg",
+      "id": 18
     }
   ],
   "movies-popular": [

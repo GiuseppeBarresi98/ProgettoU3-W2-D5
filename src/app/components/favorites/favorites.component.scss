@@ -1,0 +1,26 @@
+img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 200px;
+}
+
+.container-fluid {
+}
+
+.col-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  border: none;
+  margin-top: 10px;
+}

@@ -1,4 +1,8 @@
 <div class="container-fluid">
+  <h1 class="text-white text-center">
+    Benvenuto {{ userName }}!
+    <i class="bi bi-rocket-takeoff-fill text-danger"></i>
+  </h1>
   <div class="row g-3">
     <div *ngFor="let item of movies" class="col-3 mt-4">
       <div class="card bg bg-dark">
@@ -13,7 +17,9 @@
               {{ item.title }}
             </h5>
           </div>
-          <a href="#" class="btn btn-danger text-center"
+          <a
+            (click)="aggiungiPreferiti(item.id, item.poster_path)"
+            class="btn btn-danger text-center"
             >Aggiungi ai preferiti!</a
           >
         </div>
